@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- bộ chọn simple selector(bộ chọn đơn giản)-->
+ 
+<style>
+    /* theo elpment*/
+    h1{
+        color:red
+
+    }
+    /* theo id (hạn chế vì id là duy nhất)*/
+    #test{
+        color:blue;
+    }
+    /* theo class(hay dùng nhất) */
+    .orange{
+        color:orange;
+    }
+    /* theo chon chung: chọn tất cả các thành phần tong html(it dùng)  */
+    * {
+       text-align: center;  
+    }
+    /* theo chọn nhóm */
+    h1,#test,.orange{
+        font-size: 20px;
+    }
+</style>
+<body>
+    <h1>Nội dung h1</h1>
+    <p id="test">Nọi dung p1</p>
+    <h2 class="orange">Noi dung mau cam</h2>
+    <h3 class="orange">Noi dung</h3>
+</body>
+</html>
